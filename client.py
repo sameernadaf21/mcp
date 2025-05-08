@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 from google import generativeai as genai
 load_dotenv()
 
-genai.configure(api_key="AIzaSyBQ6L_ocdSneL1bwANQwMfDf5QL8NqBGXM")  # Use env var in real code
+genai.configure(api_key="")  # Use env var in real code
 
 class MCPClient:
     def __init__(self):
